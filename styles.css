@@ -1,0 +1,62 @@
+ul{
+    background: #fa8072a2;
+    height: 50px;
+    padding:5px; 
+}
+li{
+    background: salmon;
+    height: 30px;
+    width: 100px;
+    border-radius:3px; 
+    margin: 2px;
+    list-style: none;
+    float: left;
+    text-align: center;
+    padding:5px;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#tabs{
+    margin: 10px;
+    height: 400px;
+    width: 500px;
+    border: 2px salmon solid;
+    box-sizing: border-box;
+    padding:10px;
+}
+.change{
+    display: none;
+}
+
+/*Acordion*/
+
+#acordion{
+    height: 400px;
+    width: 500px;
+    
+    box-sizing: border-box;
+}
+h3{
+    margin: 1px;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 40px;
+    background: #fa8072b9;
+    color: white;
+    border-radius: 5px;
+}
+.widget{
+    display:none;
+    height: 200px;
+    margin: 1px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px #fa8072b9 solid;
+}
+.active{
+    background: #eb4a38d8;
+}
