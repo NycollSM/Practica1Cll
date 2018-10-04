@@ -11,25 +11,32 @@
 <body>
     <div id="acordion">
         <h3>Section 1</h3>
-        <div class="widget">
+        <div>
            <p>Text 1</p>
         </div>
         <h3>Section 2</h3>
-        <div class="widget">
+        <div>
             <p>Text 2</p>
         </div>
         <h3>Section 3</h3>
-        <div class="widget">
+        <div>
            <p>Text 3</p>
         </div>
         <h3>Section 4</h3>
-        <div class="widget">
+        <div >
            <p>Text 4 </p>
         </div>
     </div>
     <script src="acordion.js"></script>
     <script>
       accordion ('h3' , 'active');
+    </script>
+    <script>
+        accordion({
+            userOptions,
+            element: '#acordionjs',
+            collapsible : true,
+        })
     </script>
 </body>
 </html>
